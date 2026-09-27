@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="b">
+  <title id="b">Bandeira estilizada do Brasil</title>
+  <rect width="200" height="140" fill="#009c3b"/>
+  <polygon points="100,15 185,70 100,125 15,70" fill="#ffcc00"/>
+  <circle cx="100" cy="70" r="28" fill="#002776"/>
+</svg>

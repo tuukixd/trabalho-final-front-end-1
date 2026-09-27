@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #10161f;
+  color: #e6e6e6;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+a {
+  color: #2ecc71;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #182130;
+  padding: 16px 20px;
+}
+
+.barra-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+}
+
+.marca img {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 18px;
+}
+
+section, article {
+  padding: 30px 20px;
+  border-bottom: 1px solid #2a3548;
+}
+
+section h2, article h2 {
+  margin-bottom: 14px;
+}
+
+ul.times {
+  padding-left: 20px;
+}
+
+ul.times li {
+  margin-bottom: 6px;
+}
+
+.destaque-br {
+  background-color: #182130;
+}
+
+.destaque-br figure {
+  max-width: 160px;
+  margin: 16px 0;
+}
+
+.destaque-br figcaption {
+  font-size: 0.85rem;
+  color: #a9b4c2;
+  margin-top: 6px;
+}
+
+aside {
+  background-color: #1c2636;
+  border-left: 4px solid #ffcc00;
+  padding: 14px 18px;
+  margin-top: 16px;
+}
+
+ul.mapas {
+  padding-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+caption {
+  text-align: left;
+  color: #a9b4c2;
+  margin-bottom: 8px;
+}
+
+th, td {
+  padding: 8px 10px;
+  text-align: left;
+  border-bottom: 1px solid #2a3548;
+  font-size: 0.9rem;
+}
+
+th {
+  background-color: #182130;
+  color: #2ecc71;
+}
+
+tr.brasil td {
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+ol.playoffs {
+  padding-left: 22px;
+  margin-top: 10px;
+}
+
+ol.playoffs li {
+  margin-bottom: 10px;
+}
+
+footer {
+  padding: 24px 20px;
+  color: #a9b4c2;
+  font-size: 0.85rem;
+}
+
+footer a {
+  color: #e6e6e6;
+}
+
+@media (max-width: 700px) {
+  .barra-topo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    margin-left: 0;
+    margin-right: 14px;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
